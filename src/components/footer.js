@@ -1,6 +1,5 @@
 
 import React from "react";
-import {  Link } from "gatsby";
 
 
 function Footer(){
@@ -8,27 +7,14 @@ function Footer(){
    
 
     return(
-        <footer>
-        <div className="container mx-auto mt-8 px-8">
-        <div className="w-full flex flex-col md:flex-row py-6">
-        <Link className="flex items-center no-underline text-white" to="/">
-        <svg
-            className="fill-current h-8 mr-2 w-8"
-            height="54"
-            viewBox="0 0 54 54"
-            width="54"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
-          </svg>
-          <span className="font-bold text-xl tracking-tight">
-            Digitax
-          </span>
-        </Link>
+        <footer className="gradient mx-auto w-full">
+        <div className=" mx-auto mt-8 px-8 ">
+        <div className="w-full flex flex-wrap flex-col md:flex-row py-6 m-auto">
+       
 
           <div className="flex-1">
-            <p className="uppercase font-extrabold text-gray-500 md:mb-6">Links</p>
-            <ul className="list-reset mb-6">
+            <p className="uppercase font-extrabold md:mb-6 text-white">Feature</p>
+            {/* <ul className="list-reset mb-6">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
@@ -50,83 +36,31 @@ function Footer(){
                   >Support</a
                 >
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div className="flex-1">
-            <p className="uppercase font-extrabold text-gray-500 md:mb-6">Legal</p>
-            <ul className="list-reset mb-6">
-              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >Terms</a
-                >
-              </li>
-              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >Privacy</a
-                >
-              </li>
-            </ul>
+          <p className="uppercase font-extrabold md:mb-6 text-white">About</p>
+            
           </div>
           <div className="flex-1">
-            <p className="uppercase font-extrabold text-gray-500 md:mb-6">Social</p>
-            <ul className="list-reset mb-6">
-              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >Facebook</a
-                >
-              </li>
-              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >Linkedin</a
-                >
-              </li>
-              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >Twitter</a
-                >
-              </li>
-            </ul>
+          <p className="uppercase font-extrabold md:mb-6 text-white">Testimonials</p>
+          
           </div>
           <div className="flex-1">
-            <p className="uppercase font-extrabold text-gray-500 md:mb-6">
-              Company
-            </p>
-            <ul className="list-reset mb-6">
-              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >Official Blog</a
-                >
-              </li>
-              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >About Us</a
-                >
-              </li>
-              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  className="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >Contact</a
-                >
-              </li>
-            </ul>
+          <p className="uppercase font-extrabold md:mb-6 text-white">Contact</p>
+           
+          </div>
+          <div className="flex-1">
+          <p className="uppercase font-extrabold md:mb-6 text-white">Download</p>
+           
           </div>
         </div>
+           
       </div>
+      <div className="mx-auto m-10">
+            <h3 className="  text-white text-center">Menara Tower Lt X Jalan TB Simatupang No. 88, Jakarta Selatan, Indonesia</h3>
+            <h3 className="  text-white text-center">@ PT Digital Tax Indonesia </h3>
+            </div>
       </footer>
     )
 }

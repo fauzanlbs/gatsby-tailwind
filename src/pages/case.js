@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import dogIllustration from "../images/dog-illustration.svg";
+import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
 
 function Case() {
   return (
@@ -15,16 +15,14 @@ function Case() {
       <section className="flex flex-col items-center md:flex-row">
         <div className="md:w-2/3 md:mr-8">
           <blockquote className="pl-4 font-serif leading-loose text-justify border-l-4 border-gray-900">
-           CASE
+           Case Studies
           </blockquote>
 
-          <cite className="block mt-4 text-xs font-bold text-right uppercase">
-            – Thomas Nagel
-          </cite>
+         
         </div>
 
         <figure className="w-2/3 md:w-1/3">
-          <img alt="A dog relaxing" src={dogIllustration} />
+          <img alt="Tax Relax" src={catAndHumanIllustration} />
         </figure>
       </section>
     </Layout>
