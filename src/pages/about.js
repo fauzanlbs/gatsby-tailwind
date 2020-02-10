@@ -11,14 +11,14 @@ function AboutPage() {
         title="About"
       />
 
-<section className="bg-gray-100 border-b py-8">
+<section className=" border-b py-8">
       <div className="container mx-auto flex flex-wrap pt-4 pb-12">
         <h2
-          className="w-full my-2 text-5xl font-black leading-tight text-center text-gray-800"
+          className="w-full my-2 text-3xl md:text-5xl font-black leading-tight text-center text-gray-800"
         >
           About Us
         </h2>
-        <p className="w-full my-2 text-2xl font-black leading-tight text-center text-gray-800">The Journey & The Story of Digitax</p>
+        <p className="w-full my-2 text-based md:text-2xl font-black leading-tight text-center text-gray-800">The Journey & The Story of Digitax</p>
         <div className="w-full mb-4">
           
           <div
@@ -34,10 +34,10 @@ function AboutPage() {
               <p className="w-full text-gray-600 text-xs md:text-sm px-6 mt-6">
                 Feature One
               </p>
-              <div className="w-full font-bold text-xl text-gray-800 px-6">
+              <div className="w-full font-bold text-md md:text-xl text-gray-800 px-6">
                 Lorem ipsum dolor sit amet.
               </div>
-              <p className="text-gray-600 text-base px-6 mb-5">
+              <p className="text-gray-600 text-sm md:text-base px-6 mb-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.
               </p>
@@ -61,10 +61,10 @@ function AboutPage() {
               <p className="w-full text-gray-600 text-xs md:text-sm px-6 mt-6">
               Feature Two
               </p>
-              <div className="w-full font-bold text-xl text-gray-800 px-6">
+              <div className="w-full font-bold text-md md:text-xl text-gray-800 px-6">
                 Lorem ipsum dolor sit amet.
               </div>
-              <p className="text-gray-600 text-base px-6 mb-5">
+              <p className="text-gray-600 text-sm md:text-base px-6 mb-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.
               </p>
@@ -88,10 +88,10 @@ function AboutPage() {
               <p className="w-full text-gray-600 text-xs md:text-sm px-6 mt-6">
               Feature Three
               </p>
-              <div className="w-full font-bold text-xl text-gray-800 px-6">
+              <div className="w-full font-bold text-md md:text-xl text-gray-800 px-6">
                 Lorem ipsum dolor sit amet.
               </div>
-              <p className=" text-gray-600 text-base px-6 mb-5">
+              <p className="text-gray-600 text-sm md:text-base px-6 mb-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.
               </p>

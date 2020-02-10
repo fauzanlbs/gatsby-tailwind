@@ -9,7 +9,7 @@ function Contact(){
         <section>
         <form className="mx-auto md:w-1/2">
         <h2
-        className="w-full my-2 text-5xl font-black leading-tight text-center text-white"
+        className="w-full my-2 text-3xl md:text-5xl font-black leading-tight text-center text-white"
         >
           Get In Touch
         </h2>
@@ -66,6 +66,8 @@ function Contact(){
 
          
         </form>
+
+        
       </section>
     )
 }

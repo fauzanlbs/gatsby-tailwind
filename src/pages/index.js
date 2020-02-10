@@ -39,10 +39,10 @@ function IndexPage() {
 
     {/* main feature */}
 
-    <section className="bg-white border-b py-8">
+    <section className="bg-indigo-400 border-b py-8 rounded-md shadow-2xl shadow-inner">
       <div className="container mx-auto flex flex-wrap pt-4 pb-12">
         <h2
-          className="w-full my-2 text-5xl font-black leading-tight text-center text-gray-800"
+          className="w-full my-2 text-2xl md:text-5xl font-black leading-tight text-center text-gray-800"
         >
           Main Features / Benefits
         </h2>
@@ -60,10 +60,10 @@ function IndexPage() {
               <p className="w-full text-gray-600 text-xs md:text-sm px-6 mt-6">
                 Feature One
               </p>
-              <div className="w-full font-bold text-xl text-gray-800 px-6">
+              <div className="w-full font-bold text-md md:text-xl text-gray-800 px-6">
                 Lorem ipsum dolor sit amet.
               </div>
-              <p className="text-gray-600 text-base px-6 mb-5">
+              <p className="text-gray-600 text-sm md:text-base px-6 mb-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.
               </p>
@@ -85,12 +85,12 @@ function IndexPage() {
           >
             <a href="#" className="flex flex-wrap no-underline hover:no-underline">
               <p className="w-full text-gray-600 text-xs md:text-sm px-6 mt-6">
-              Feature Two
+                Feature One
               </p>
-              <div className="w-full font-bold text-xl text-gray-800 px-6">
+              <div className="w-full font-bold text-md md:text-xl text-gray-800 px-6">
                 Lorem ipsum dolor sit amet.
               </div>
-              <p className="text-gray-600 text-base px-6 mb-5">
+              <p className="text-gray-600 text-sm md:text-base px-6 mb-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.
               </p>
@@ -99,7 +99,8 @@ function IndexPage() {
           <div
             className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
           >
-            <div className="flex items-center justify-center">
+  
+            <div className="flex items-center justify-start">
              
             </div>
           </div>
@@ -111,12 +112,12 @@ function IndexPage() {
           >
             <a href="#" className="flex flex-wrap no-underline hover:no-underline">
               <p className="w-full text-gray-600 text-xs md:text-sm px-6 mt-6">
-                Feature Three
+                Feature One
               </p>
-              <div className="w-full font-bold text-xl text-gray-800 px-6">
+              <div className="w-full font-bold text-md md:text-xl text-gray-800 px-6">
                 Lorem ipsum dolor sit amet.
               </div>
-              <p className=" text-gray-600 text-base px-6 mb-5">
+              <p className="text-gray-600 text-sm md:text-base px-6 mb-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.
               </p>
@@ -125,8 +126,9 @@ function IndexPage() {
           <div
             className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
           >
-            <div className="flex items-center justify-end">
-            
+  
+            <div className="flex items-center justify-start">
+             
             </div>
           </div>
         </div>
@@ -136,10 +138,10 @@ function IndexPage() {
     
 
 
-    <section className="bg-gray-100 border-b py-8">
+    <section className="bg-brown-200 border-b py-8">
       <div className="container mx-auto flex flex-wrap pt-4 pb-12">
-        <h2
-          className="w-full my-2 text-5xl font-black leading-tight text-center text-gray-800"
+      <h2
+          className="w-full my-2 text-2xl md:text-5xl font-black leading-tight text-center text-gray-800"
         >
           Testimonials
         </h2>
@@ -155,10 +157,10 @@ function IndexPage() {
           >
             <a href="#" className="flex flex-wrap no-underline hover:no-underline">
              
-              <div className="w-full font-bold text-xl text-gray-800 px-6 m-5">
+            <div className="w-full font-bold text-md md:text-xl text-gray-800 px-6 mt-10">
                 Lorem ipsum dolor sit amet.
               </div>
-              <p className="text-gray-600 text-base px-6 mb-5">
+              <p className="text-gray-600 text-sm md:text-base px-6 mb-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.
               </p>
@@ -180,10 +182,10 @@ function IndexPage() {
           >
             <a href="#" className="flex flex-wrap no-underline hover:no-underline">
               
-              <div className="w-full font-bold text-xl text-gray-800 px-6 m-5">
+            <div className="w-full font-bold text-md md:text-xl text-gray-800 px-6 mt-10">
                 Lorem ipsum dolor sit amet.
               </div>
-              <p className="text-gray-600 text-base px-6 mb-5">
+              <p className="text-gray-600 text-sm md:text-base px-6 mb-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.
               </p>
@@ -205,10 +207,10 @@ function IndexPage() {
           >
             <a href="#" className="flex flex-wrap no-underline hover:no-underline">
              
-              <div className="w-full font-bold text-xl text-gray-800 px-6 m-5">
+            <div className="w-full font-bold text-md md:text-xl text-gray-800 px-6 mt-10">
                 Lorem ipsum dolor sit amet.
               </div>
-              <p className=" text-gray-600 text-base px-6 mb-5">
+              <p className="text-gray-600 text-sm md:text-base px-6 mb-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.
               </p>
@@ -227,11 +229,11 @@ function IndexPage() {
     </section>
 
     <h2
-          className="w-full my-2 text-5xl font-black leading-tight text-center text-gray-800"
+          className="w-full my-2 text-3xl md:text-5xl font-black leading-tight text-center text-gray-800 mt-20"
         >
           Products & Services
         </h2>
-        <p className="w-full my-2 text-2xl font-black leading-tight text-center text-gray-800">Berisi Highlight Products & Services yang ada di Digitax</p>
+        <p className="w-full my-2 text-based md:text-2xl font-black leading-tight text-center text-gray-800">Berisi Highlight Products & Services yang ada di Digitax</p>
 
     
 
@@ -247,12 +249,12 @@ function IndexPage() {
         <p className="leading-loose">
           Kumpulan Peraturan Perpajakan yang dapat diakses setiap saat melalui smartphone anda
         </p>
-        <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
+        <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3 rounded">
           Download The App
         </h2>
 
       </section>
-      <section className="bg-gray-800 border-b p-8">
+      <section className="bg-gray-800 border-b p-8 rounded-lg">
       <Contact/>
       </section>
     </Layout>
